@@ -15,8 +15,8 @@ public class GenerateIcon : CreateStageManager
         foreach (var item in obstacleList.scriptableObstacles)
         {
             GameObject ins = Instantiate(icon);
-            ins.AddComponent<IconStatus>();
-            //IconStatus iconStatus = new IconStatus(ins, item.obstacleObject);
+           IconStatus iconStatus = ins.AddComponent<IconStatus>();
+           iconStatus.obstacle = item.obstacleObject;
             ins.GetComponent<Image>().sprite = item.obSprite;
             ins.transform.parent = iconContent.transform;
             i++;

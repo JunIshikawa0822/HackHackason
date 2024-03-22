@@ -624,6 +624,53 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1070105657
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1070105659}
+  - component: {fileID: 1070105658}
+  m_Layer: 0
+  m_Name: CreateItem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1070105658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1070105657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc6361d75b5ee4e88951d96c8917727b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstacleList: {fileID: 11400000, guid: 3185804edd34a4627b36fe1034e3f0b7, type: 2}
+  icon: {fileID: 7222741844591156751, guid: cae45bdfe6c9c48238ab471428a503c3, type: 3}
+  iconContent: {fileID: 607541115}
+--- !u!4 &1070105659
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1070105657}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.00055924116, y: 0.00071049837, z: 0.0005415844}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1071649606
 GameObject:
   m_ObjectHideFlags: 0
@@ -1169,3 +1216,4 @@ SceneRoots:
   - {fileID: 1071649610}
   - {fileID: 677179760}
   - {fileID: 427386846}
+  - {fileID: 1070105659}
