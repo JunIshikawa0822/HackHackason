@@ -13,8 +13,10 @@ public class CreateStageManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        MoveObject();
     }
 
     protected virtual void GenerateIcons(){}
+    
+    protected virtual void MoveObject(){}
 }
