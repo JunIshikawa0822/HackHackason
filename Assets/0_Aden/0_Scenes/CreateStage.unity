@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -259,7 +259,7 @@ MonoBehaviour:
   speed: 1
   dash: 3
   roteSpeed: 1
-  zoomSpeed: 1
+  zoomSpeed: 0.2
   camera: {fileID: 499670376}
 --- !u!1 &460524912
 GameObject:
@@ -654,7 +654,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   obstacleList: {fileID: 11400000, guid: 3185804edd34a4627b36fe1034e3f0b7, type: 2}
-  icon: {fileID: 7222741844591156751, guid: cae45bdfe6c9c48238ab471428a503c3, type: 3}
+  icon: {fileID: 1847257515841731014, guid: cae45bdfe6c9c48238ab471428a503c3, type: 3}
   iconContent: {fileID: 607541115}
 --- !u!4 &1070105659
 Transform:

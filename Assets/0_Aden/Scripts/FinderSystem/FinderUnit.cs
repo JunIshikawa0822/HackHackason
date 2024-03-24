@@ -19,7 +19,7 @@ public class FinderUnit : MonoBehaviour
         public async UniTask<Texture2D> Shoot()
         {
             shootCamera = gameObject.GetComponent<Camera>();
-            UniTask.WaitForSeconds(shootTime);
+        await UniTask.WaitForSeconds(shootTime);
         Vector2Int size = new Vector2Int((int)Handles.GetMainGameViewSize().x, (int)Handles.GetMainGameViewSize().y);
         RenderTexture render = new RenderTexture(size.x, size.y, 24);
         Texture2D texture = new Texture2D(size.x, size.y, TextureFormat.RGB24, false);

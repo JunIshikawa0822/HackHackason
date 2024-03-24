@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3111131b42d8448da88ee1374960ee64, type: 3}
   m_Name: CameraObject
   m_EditorClassIdentifier: 
-  obstacleObject: {fileID: 2087311596689145668, guid: e6a9feb6728aa49d2a4d27ffd5791b63, type: 3}
+  obstacleObject: {fileID: 4151177590175915031, guid: e6a9feb6728aa49d2a4d27ffd5791b63, type: 3}
   obSprite: {fileID: 0}

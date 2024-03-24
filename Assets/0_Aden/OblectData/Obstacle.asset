@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3111131b42d8448da88ee1374960ee64, type: 3}
   m_Name: Obstacle
   m_EditorClassIdentifier: 
-  obstacleObject: {fileID: 5119831072917085569, guid: b0f1aebc35ee94b8b876621e46df8355, type: 3}
+  obstacleObject: {fileID: 2062945366244869316, guid: b0f1aebc35ee94b8b876621e46df8355, type: 3}
   obSprite: {fileID: 0}

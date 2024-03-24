@@ -14,21 +14,31 @@ public class ObosanMoveSystem : MonoBehaviour
     private GameObject point;
 
     private int pointNumber;
+
+    private bool canEnemyMove = false;
     // Start is called before the first frame update
     void Start()
     {
-        GetPoint();
-        SetPoint();
+        if (canEnemyMove)
+        {
+            GetPoint();
+            SetPoint();
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        MovePoint();
+        if (canEnemyMove)
+        {
+            MovePoint();    
+        }
+        
     }
 
     void MovePoint()
     {
+        
         navMeshAgent.SetDestination(point.transform.position);
     }
 

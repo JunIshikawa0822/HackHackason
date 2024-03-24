@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &7222741844591156751
+--- !u!1 &1847257515841731014
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,11 +8,13 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1826868238186451306}
-  - component: {fileID: 4764046852119228916}
-  - component: {fileID: 3622035106096963038}
-  - component: {fileID: -8887894266874419119}
-  - component: {fileID: -5680214744155939505}
+  - component: {fileID: 2601629120148443042}
+  - component: {fileID: 1754343441384443988}
+  - component: {fileID: 6311450652583848994}
+  - component: {fileID: 711551737889395414}
+  - component: {fileID: 4716845042491045475}
+  - component: {fileID: 3751600837466511971}
+  - component: {fileID: 6191171814233362310}
   m_Layer: 5
   m_Name: ObstacleImage
   m_TagString: Untagged
@@ -20,13 +22,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &1826868238186451306
+--- !u!224 &2601629120148443042
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7222741844591156751}
+  m_GameObject: {fileID: 1847257515841731014}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -39,21 +41,21 @@ RectTransform:
   m_AnchoredPosition: {x: 69.13599, y: -597.2136}
   m_SizeDelta: {x: 68, y: 64}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &4764046852119228916
+--- !u!222 &1754343441384443988
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7222741844591156751}
+  m_GameObject: {fileID: 1847257515841731014}
   m_CullTransparentMesh: 1
---- !u!114 &3622035106096963038
+--- !u!114 &6311450652583848994
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7222741844591156751}
+  m_GameObject: {fileID: 1847257515841731014}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
@@ -77,25 +79,25 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &-8887894266874419119
+--- !u!114 &711551737889395414
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7222741844591156751}
+  m_GameObject: {fileID: 1847257515841731014}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a25aee005b42d4ffc958d936320f0220, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &-5680214744155939505
+--- !u!114 &4716845042491045475
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7222741844591156751}
+  m_GameObject: {fileID: 1847257515841731014}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
@@ -106,7 +108,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: -8887894266874419119}
+        - m_Target: {fileID: 711551737889395414}
           m_TargetAssemblyTypeName: GenerateObstacle, Assembly-CSharp
           m_MethodName: OnImageClick
           m_Mode: 1
@@ -118,3 +120,28 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &3751600837466511971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1847257515841731014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0637d6c767a14914cb5cf59158f246b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6191171814233362310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1847257515841731014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates: []

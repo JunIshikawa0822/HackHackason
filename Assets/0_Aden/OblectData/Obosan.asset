@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3111131b42d8448da88ee1374960ee64, type: 3}
   m_Name: Obosan
   m_EditorClassIdentifier: 
-  obstacleObject: {fileID: 5285438661342005139, guid: 6866bdfb7122845308fe3725676a350e, type: 3}
+  obstacleObject: {fileID: 3366423176785254457, guid: 6866bdfb7122845308fe3725676a350e, type: 3}
   obSprite: {fileID: 0}

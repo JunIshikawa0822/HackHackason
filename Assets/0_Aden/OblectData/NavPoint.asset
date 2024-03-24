@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3111131b42d8448da88ee1374960ee64, type: 3}
   m_Name: NavPoint
   m_EditorClassIdentifier: 
-  obstacleObject: {fileID: 5094924447229502063, guid: 101fad67ffe3040419b7fb33cf2d5050, type: 3}
+  obstacleObject: {fileID: 4434923324713871621, guid: 101fad67ffe3040419b7fb33cf2d5050, type: 3}
   obSprite: {fileID: 0}
